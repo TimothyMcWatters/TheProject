@@ -5,12 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\" />
+    <Folder Include="ClientApp\components\" />
+    <Folder Include="ClientApp\css\" />
+    <Folder Include="ClientApp\models\" />
+    <Folder Include="ClientApp\module\" />
+    <Folder Include="ClientApp\stylus\" />
+    <Folder Include="ClientApp\services\" />
     <Folder Include="Services\" />
     <Folder Include="Repository\" />
   </ItemGroup>
